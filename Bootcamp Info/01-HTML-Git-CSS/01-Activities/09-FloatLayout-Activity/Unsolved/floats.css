@@ -8,6 +8,7 @@
 }
 
 body {
+  text-align: center;
 }
 
 header {
@@ -18,25 +19,58 @@ header {
 }
 
 section {
+  padding: 20px;
+  margin-bottom: 20px;
+
 }
 
 #left {
+  color: aliceblue;
+  background-color: brown;
+  width: 33%;
+
+  float: left;
 }
 
 #middle {
+  color: aliceblue;
+  background-color: green;
+  width: 34%;
+  float: left;
 }
 
 #right {
+  color: aliceblue;
+  background-color: brown;
+  width: 33%;
+  float: left;
 }
 
 #full {
+  background-color: tomato;
+  clear: both;
+  height: 200px;
 }
 
 #division {
+  background-color: teal;
+  padding: 20px;
+  margin: 20px;
 }
 
 aside {
+  background-color: aqua;
+  color: aliceblue;
+  width: 33%;
+  border: oldlace;
+  border-style: solid;
+  padding-bottom: 100px;
+  margin-left: 30px;
+  float: left;
 }
 
 footer {
+  background-color: slateblue;
+  padding: 20px;
+
 }
